@@ -3,7 +3,7 @@
 
 "Pre-processing" prefabs is a relatively easy editor-extension technique that can be used to speed up content-creation pipelines, reduce code complexity, and even improve performance. This Github project shows how to use this technique in one simple example scenario, and this README contains a description of both *why* this technique is useful and *how* to implement it.
 
-Although this Github project uses the Unity3D game engine to showcase this technique, many other game engines also have the concept of a "prefab", and this technique should work with any such engine so long as it exposes the scripting APIs.
+Although this Github project uses the Unity3D game engine to showcase this technique, many other game engines also have the concept of a "prefab", and this technique should work with any such engine so long as it exposes the necessary scripting APIs.
 
 ## Why is pre-processing prefabs useful? ##
 
