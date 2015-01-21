@@ -8,6 +8,7 @@ public class Test : MonoBehaviour
 	{
 		if (GUILayout.Button("Create standard-def kitten."))
 		{
+			// Destroy old kitten sprite if we already have one.
 			if (kitten != null)
 				Destroy(kitten); // :-(
 
@@ -17,6 +18,7 @@ public class Test : MonoBehaviour
 
 		if (GUILayout.Button("Create high-def kitten!"))
 		{
+			// Destroy old kitten sprite if we already have one.
 			if(kitten != null)
 				Destroy(kitten); // :-(
 
